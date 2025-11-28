@@ -29,8 +29,23 @@ export const HomePage = () => {
   return (
     <div className="max-w-6xl mx-auto space-y-12">
       
+      {/* START DATE ANNOUNCEMENT */}
+      <div className="text-center pt-6 pb-2 space-y-2 animate-fade-in-down">
+        <h2 className="text-5xl md:text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 animate-pulse drop-shadow-[0_0_15px_rgba(234,179,8,0.4)] tracking-wider">
+          START 20 GRUDNIA
+        </h2>
+        <a 
+          href={DISCORD_LINK} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-block text-slate-300 text-sm md:text-base font-medium hover:text-blue-400 transition-colors border-b border-slate-700 hover:border-blue-400 pb-0.5"
+        >
+          Dołącz do discorda i zdobądź darmową rangę VIP
+        </a>
+      </div>
+
       {/* Header / Wiki Title */}
-      <div className="text-center space-y-4 pt-8">
+      <div className="text-center space-y-4">
         <h1 className="text-5xl md:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-blue-400 tracking-tight">
           WIKIPEDIA ARGONCRAFT
         </h1>
