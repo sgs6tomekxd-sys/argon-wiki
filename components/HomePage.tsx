@@ -102,6 +102,22 @@ export const HomePage = () => {
         </div>
       </div>
 
+      {/* SERVER WIDGET */}
+      <div className="flex justify-center w-full overflow-hidden py-4">
+        <div className="rounded-xl overflow-hidden shadow-lg border border-slate-800 bg-slate-900/50 backdrop-blur-sm max-w-full">
+            <iframe 
+                src="https://www.mclist.pl/widget/argoncraft.pl" 
+                width="800" 
+                height="110" 
+                allowTransparency={true}
+                frameBorder="0" 
+                scrolling="no" 
+                style={{ overflow: 'hidden', border: 0, maxWidth: '100%' }}
+                title="ArgonCraft Server Status"
+            />
+        </div>
+      </div>
+
       {/* Main Navigation Menu (Wiki Content) */}
       <div className="space-y-6">
         <h2 className="text-2xl font-bold text-white pl-2 border-l-4 border-blue-500">
